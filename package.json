@@ -1,0 +1,19 @@
+{
+    "name": "restaurant-booking-api",
+    "version": "0.1.0",
+    "type": "module",
+    "scripts": {
+        "start": "node ./bin/www",
+        "dev": "nodemon ./bin/www",
+        "create-fake-tables": "node db/data/generateFakeData.js"
+    },
+    "dependencies": {
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "debug": "^4.3.4",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "mongoose": "^6.9.0",
+        "morgan": "^1.10.0"
+    }
+}
